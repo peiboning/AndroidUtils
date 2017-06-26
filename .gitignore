@@ -1,0 +1,6 @@
+
+.gradle/
+.idea/
+AndroidUtils.iml
+app/src/main/res/drawable/
+build/
