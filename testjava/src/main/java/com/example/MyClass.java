@@ -5,7 +5,12 @@ public class MyClass {
 //        MergeSort.sort();
 //        InsertSort.sort();
 //        QuickSort.sort();
-        Link.sort();
+//        Link.sort();
+//        FindMaxNums.find();
+//        SelectSort.sort();
+//        MaopaoSort.sort();
+//        JishuSort.sort();
+        ConstructArray.construct();
     }
 
 
