@@ -1,1 +1,1 @@
-include ':app', ':testjava', ':myannation', ':myinject'
+include ':app', ':testjava', ':view-inject', ':view-compiler', ':view-anniation'
