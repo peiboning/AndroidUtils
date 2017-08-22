@@ -2,6 +2,7 @@ package com.view_anniation;
 
 /**
  * Created by peiboning on 2017/7/27.
+ * 求数组连续的最大值
  */
 
 public class FindMaxNums {

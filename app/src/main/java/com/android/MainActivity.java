@@ -1,6 +1,7 @@
 package com.android;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,5 +26,14 @@ public class MainActivity extends Activity {
     public void gotoVideo(View view){
         Intent intent = new Intent(this,VideoActivity.class);
         startActivity(intent);
+    }
+
+    public void tranction(View view){
+        Intent intent = new Intent(this,AnimationActivity.class);
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+    }
+    public void flowView(View view){
+        Intent intent = new Intent(this,FlowViewActivity.class);
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
     }
 }

@@ -25,6 +25,7 @@ public class ConstructArray {
             int value = random.nextInt(length) + 1;
             if(arr[value-1] == 0){
                 arr[value-1] = value;
+                continue;
             }else{
                 i--;
             }
@@ -34,7 +35,7 @@ public class ConstructArray {
         long cost = System.currentTimeMillis() - start;
         System.out.println("temp value is " + temp);
         System.out.println("cost time is " + cost);
-        print(arr);
+//        print(arr);
     }
 
 

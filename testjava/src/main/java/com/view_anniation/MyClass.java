@@ -10,8 +10,8 @@ public class MyClass {
 //        SelectSort.sort();
 //        MaopaoSort.sort();
 //        JishuSort.sort();
-//        ConstructArray.construct();
-        ShellSort.sort();
+        ConstructArray.construct();
+//        ShellSort.sort();
     }
 
 
