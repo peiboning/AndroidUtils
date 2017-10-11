@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.android.proxy.TestProxy;
+import com.android.usageStatesmanager.UsageStateActivity;
 import com.android.video.VideoActivity;
+import com.android.view.CircleView;
 import com.sohu.util.demo.R;
 
 public class MainActivity extends Activity {
@@ -34,6 +36,18 @@ public class MainActivity extends Activity {
     }
     public void flowView(View view){
         Intent intent = new Intent(this,FlowViewActivity.class);
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+    }
+    public void circle(View view){
+        Intent intent = new Intent(this,CircleActivity.class);
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+    }
+    public void usageState(View view){
+        Intent intent = new Intent(this,UsageStateActivity.class);
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+    }
+    public void webviewPage(View view){
+        Intent intent = new Intent(this,WebViewActivity.class);
         startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
     }
 }

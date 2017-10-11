@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.sohu.util.demo">
 
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -12,6 +13,10 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.BODY_SENSORS" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 注意这里：添加权限 -->
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
@@ -30,7 +35,10 @@
             android:name="com.android.video.VideoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity android:name="com.android.AnimationActivity" />
-        <activity android:name="com.android.FlowViewActivity"></activity>
+        <activity android:name="com.android.FlowViewActivity" />
+        <activity android:name="com.android.CircleActivity" />
+        <activity android:name="com.android.usageStatesmanager.UsageStateActivity" />
+        <activity android:name="com.android.WebViewActivity"></activity>
     </application>
 
 </manifest>

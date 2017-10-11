@@ -40,6 +40,27 @@
        android:onClick="flowView"
        tools:layout_editor_absoluteY="0dp"
        tools:layout_editor_absoluteX="8dp" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="circle"
+       android:onClick="circle"
+       tools:layout_editor_absoluteY="0dp"
+       tools:layout_editor_absoluteX="8dp" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="usage_state_manager"
+       android:onClick="usageState"
+       tools:layout_editor_absoluteY="0dp"
+       tools:layout_editor_absoluteX="8dp" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="webviewPage"
+       android:onClick="webviewPage"
+       tools:layout_editor_absoluteY="0dp"
+       tools:layout_editor_absoluteX="8dp" />
 </LinearLayout>
 
 
